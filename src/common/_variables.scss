@@ -1,0 +1,31 @@
+@import '../fonts/fonts';
+
+$light: #fff;
+$bg-primary: #252323;
+$bg-secondary: #1e1e1e;
+// $primary: #b3b9c9;
+// $secondary: #fff;
+
+%poppins-300 {
+  font-weight: 300;
+  font-family: Poppins-Light, sans-serif;
+}
+
+%poppins-400 {
+  font-weight: 400;
+  font-family: Poppins-Regular, sans-serif;
+}
+
+%poppins-500 {
+  font-weight: 500;
+  font-family: Poppins-Medium, sans-serif;
+}
+
+%poppins-600 {
+  font-weight: 600;
+  font-family: Poppins-SemiBold, sans-serif;
+}
+%poppins-700 {
+  font-weight: 700;
+  font-family: Poppins-Bold, sans-serif;
+}

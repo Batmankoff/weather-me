@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@components": ["src/components"],
+      "@pages/*": ["src/pages/*"],
+      "@pages": ["src/pages"],
+      "@images/*": ["src/images/*"],
+      "@images": ["src/images"],
+      "@icons": ["src/images/icons"],
+      "@variables": ["src/common/_variables.scss"],
+      "@fonts": ["src/fonts/index.js"],
+      "@global": ["src/layout/global.scss"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
