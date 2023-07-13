@@ -5,9 +5,7 @@ import Header from '@components/Header/Header';
 const Forecast = () => {
   return (
     <div className={styles.forecast}>
-      <Header>
-        <h1>Start </h1>
-      </Header>
+      <Header />
     </div>
   );
 };
