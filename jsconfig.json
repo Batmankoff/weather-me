@@ -8,6 +8,7 @@
       "@pages": ["src/pages"],
       "@images/*": ["src/images/*"],
       "@images": ["src/images"],
+      "@icons/*": ["src/images/icons/*"],
       "@icons": ["src/images/icons"],
       "@variables": ["src/common/_variables.scss"],
       "@fonts": ["src/fonts/index.js"],

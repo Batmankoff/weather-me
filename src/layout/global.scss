@@ -21,9 +21,8 @@ body {
   color: $light;
   background-color: $bg-secondary;
 
-  line-height: 21px;
   font-size: 14px;
-  font-style: normal;
+  line-height: 21px;
 
   @extend %poppins-400;
 }

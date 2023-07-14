@@ -1,4 +1,14 @@
+@import '@variables';
 .inner {
+  display: flex;
+  align-items: center;
   height: 93px;
-  background-color: red;
+  gap: 30px;
+}
+
+.title {
+  @extend %poppins-400;
+  font-size: 48px;
+  line-height: 1.2;
+  color: #fff;
 }

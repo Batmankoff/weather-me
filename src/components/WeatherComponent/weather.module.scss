@@ -1,0 +1,75 @@
+@import '@variables';
+.inner {
+  width: 490px;
+  height: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(147deg, #ad36cb 26.56%, #333 68.75%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 1px 1px 0px rgba(255, 250, 250, 0.25),
+    0px 1px 1px 0px rgba(253, 245, 245, 0.25);
+}
+
+.city {
+  position: relative;
+  display: inline-block;
+  padding-right: 25px;
+  color: #fff;
+  @extend %poppins-300;
+  font-size: 24px;
+  &::after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    right: 0;
+    background-image: url('~@icons/location.svg');
+  }
+}
+.boxs {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.boxCity {
+  height: 30px;
+}
+.boxTemp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  font-size: 70px;
+  line-height: 1.2;
+  @extend %poppins-300;
+  color: #f2f1f1;
+}
+.temp {
+  position: relative;
+  padding-left: 40px;
+  &::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 19px;
+    height: 63px;
+    background-image: url('~@icons/temperature.svg');
+  }
+}
+.boxDesc {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.boxDescItem {
+  display: flex;
+  flex-direction: column;
+  @extend %poppins-500;
+  font-size: 14px;
+  line-height: 1.2;
+  color: $light;
+}

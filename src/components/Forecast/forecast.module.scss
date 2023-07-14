@@ -1,8 +1,9 @@
 @import '@variables';
 
-.forecast {
+.inner {
   width: 900px;
   height: 600px;
-  background-color: $bg-primary;
+  padding: 20px;
   border-radius: 20px;
+  background-color: $bg-primary;
 }
